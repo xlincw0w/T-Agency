@@ -68,7 +68,8 @@ html, body, div, h3{
 
 .info {
     margin: 0 auto;
-    margin-top: 1vh;
+    margin-top: 1.2vh;
+    font-size: 1.7vh;
 }
 
 .vala {
@@ -161,7 +162,7 @@ html, body, div, h3{
     margin-top: 5vh;
     margin-left: 7vw;
     margin-bottom: 5vh;
-    width: 100wh;
+    width: 55vw;
     height: 20vh;
   }
 
