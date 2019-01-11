@@ -160,9 +160,9 @@ html, body, div, h5, h4, h3, h2, h1, p, a{
     float: left;
     display: flex;
     margin: 0 auto;
-    margin-top: 5vh;
+    margin-top: 3vh;
     margin-left: 8vw;
-    margin-bottom: 2vh;
+    margin-bottom: 3vh;
     width: 55vw;
     height: 15vh;
     transition-duration: 0.4s;
