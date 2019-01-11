@@ -117,7 +117,7 @@ html, body, div, h5, h4, h3, h2, h1, p, a{
 .bar{
     width: 17vw;
     height: 2.5vh;
-    padding: 0;
+    padding: 0.5vh;
     border: none;
     margin-top: 4vh;    
     margin-left: 4vh;
@@ -163,6 +163,9 @@ html, body, div, h5, h4, h3, h2, h1, p, a{
     margin-top: 3vh;
     margin-left: 8vw;
     margin-bottom: 3vh;
+    border: black;
+    border-style: groove;
+    border-radius: 1vh;
     width: 55vw;
     height: 15vh;
     transition-duration: 0.4s;
@@ -199,7 +202,7 @@ html, body, div, h5, h4, h3, h2, h1, p, a{
 
 .hotelname {
     font-family: cursive;
-    font-size: 3vh;
+    font-size: 2.5vh;
     color: black;
 }
 
@@ -211,4 +214,12 @@ html, body, div, h5, h4, h3, h2, h1, p, a{
 
 .hotels:hover {
     background-color: rgb(105, 105, 105);   
+}
+
+.pricetitle {
+    font-size: 3vh;
+}
+
+.realprice {
+
 }
