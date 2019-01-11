@@ -116,6 +116,7 @@ html, body, div, h5, h4, h3, h2, h1, p, a{
 
 .bar{
     width: 17vw;
+    height: 2.5vh;
     padding: 0;
     border: none;
     margin-top: 4vh;    
@@ -161,6 +162,7 @@ html, body, div, h5, h4, h3, h2, h1, p, a{
     margin: 0 auto;
     margin-top: 5vh;
     margin-left: 8vw;
+    margin-bottom: 2vh;
     width: 55vw;
     height: 15vh;
     transition-duration: 0.4s;
