@@ -1,4 +1,4 @@
-body, div, h3{
+html, body, div, h3{
     margin:0;
     padding:0;
     border:0;
@@ -9,28 +9,31 @@ body, div, h3{
     text-align: center;
 }
 
-.B {
-    width: 100%;
+.header {
+    width: 100vw;
     height: 18vh;
     background-color: rgb(0, 0, 0);
 }
 
 .C {
     width: 100%;
-    height: 64vh;
+    min-height: 64vh;
+    height: auto;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;    
     justify-content: space-around;
 }
 
-.D {
-    width: 100%;
+.footer {
+    display: flex;
+    width: 100vw;
     height: 18vh;
     background-color: rgb(0, 0, 0);
 }
 
 .left {
+    margin-left: 0;
     flex-basis: 25%;
     background-color: rgb(228, 228, 228);
 }
@@ -42,11 +45,12 @@ body, div, h3{
 .right {
     flex-basis: 74.7%;
     background-color: rgb(228, 228, 228);
+    margin-right: 0;
 }
 
 .logo {
     float: left;
-    margin-left: 20vh;
+    margin-left: 10vw;
     margin-top: 5vh;
     font-size: 5vh;
     text-decoration: none;
@@ -55,38 +59,51 @@ body, div, h3{
     font-weight: 700;
 }
 
-.connexion {
-    float: right;
-    margin-top: 7.7vh;
-    margin-right: 10vh;
-    font-size: 2vh;
-    font-family: auto;
-    color: azure;
-    text-decoration: none;
-}
 
 .contactinformation {
+    flex-basis: 33%;
+    margin: 0;
     color: azure;
-    float: left;
-    margin-left: 5vh;
+}
+
+.info {
+    margin: 0 auto;
+    margin-top: 1vh;
+}
+
+.vala {
+    margin: 0 auto;
+    margin-top: 2vh;
 }
 
 .copyrights {
+    flex-basis: 33%;
+    margin: 0;
     color: azure;
     float: left;
-    margin-left: 58vh;
     margin-top: 12vh;
 }
 
 .follow {
+    flex-basis: 34%;
+    margin: 0;
+    margin-right: 0;
     color: azure;
     float: right;
-    margin-right: 5vh;
 }
 
 .followlinks {
     display: flex;
     margin-top: 0.5vh;
+    margin-left: 17vw;
+    color: azure;
+    text-decoration: none;
+}
+
+.valdke {
+    display: flex;
+    margin-top: 2vh;
+    margin-left: 17vw;
     color: azure;
     text-decoration: none;
 }
@@ -96,20 +113,18 @@ body, div, h3{
     font-family: cursive;
 }
 
-
-  /* Style the search box inside the navigation bar */
-  .bar{
-    width: 30vh;
-    padding: 6px;
+.bar{
+    width: 17vw;
+    padding: 0;
     border: none;
-    margin-top: 8px;
-    margin-right: 16px;
+    margin-top: 4vh;
+    margin-right: 5vw;
     margin-left: 4vh;
     float: left;
-    font-size: 17px;
+    font-size: 1vw;
   }
   
-  .button {
+.button {
     background-color: rgb(255, 255, 255); /* Green */
     border: none;
     color: rgb(0, 0, 0);
@@ -120,41 +135,42 @@ body, div, h3{
     font-family: cursive;
     font-size: 16px;
     float: left;
-    margin-left: 4vh;
+    margin-left: 2vw;
     margin-top: 4vh;
     -webkit-transition-duration: 0.4s; /* Safari */
     transition-duration: 0.4s;
     cursor: pointer;
   }
   
-  .button:hover {
+.button:hover {
     background-color: #555555;
     color: white;
   }
 
-  .left p {
+.left p {
     font-family: cursive;
     font-size: 4vh;
     float: left;
-    margin-left: 4vh;
+    margin-left: 2vw;
     margin-top: 7vh;
   }
 
-  .hotels {
+.hotels {
     float: left;
     display: flex;
     margin-top: 5vh;
-    margin-left: 13vh;
-    width: 120vh;
+    margin-left: 7vw;
+    margin-bottom: 5vh;
+    width: 100wh;
     height: 20vh;
   }
 
-  .desc {
+.desc {
     flex-basis: 75%;
     background-color: aqua;
   }
 
-  .price {
+.price {
     flex-basis: 25%;
     background-color: bisque;
   }
