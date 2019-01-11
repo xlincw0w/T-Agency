@@ -16,6 +16,7 @@ html, body, div, h5, h4, h3, h2, h1, p, a{
 }
 
 .main {
+    background-color: rgb(228, 228, 228);
     width: 100%;
     min-height: 64vh;
     height: auto;
@@ -35,7 +36,6 @@ html, body, div, h5, h4, h3, h2, h1, p, a{
 .left {
     margin-left: 0;
     flex-basis: 25%;
-    background-color: rgb(228, 228, 228);
 }
 .sep {
     flex-basis: 0.3%;
@@ -44,11 +44,11 @@ html, body, div, h5, h4, h3, h2, h1, p, a{
 
 .right {
     flex-basis: 74.7%;
-    background-color: rgb(228, 228, 228);
     margin-right: 0;
 }
 
 .logo {
+    transition-duration: 0.3s;
     float: left;
     margin-left: 10vw;
     margin-top: 5vh;
@@ -57,6 +57,11 @@ html, body, div, h5, h4, h3, h2, h1, p, a{
     color: azure;
     font-family: cursive;
     font-weight: 700;
+}
+
+.logo:hover {
+    color: white;
+    font-size: 5.2vh;
 }
 
 
@@ -94,11 +99,17 @@ html, body, div, h5, h4, h3, h2, h1, p, a{
 }
 
 .followlinks {
+    transition-delay: 0.4s;
     display: flex;
     margin-top: 0.5vh;
     margin-left: 17vw;
     color: azure;
     text-decoration: none;
+}
+
+.followlinks:hover {
+    color: white;
+    text-decoration: underline;
 }
 
 .valdke {
@@ -126,7 +137,7 @@ html, body, div, h5, h4, h3, h2, h1, p, a{
   }
   
 .button {
-    background-color: rgb(255, 255, 255); /* Green */
+    background-color: rgb(255, 255, 255);
     border: none;
     color: rgb(0, 0, 0);
     padding: 16px 32px;
@@ -235,4 +246,46 @@ html, body, div, h5, h4, h3, h2, h1, p, a{
 
 .realprice {
     font-size: 1.7vh;
+}
+
+.mainslogan {
+    margin-top: 5vh;
+    font-size: 3.5vh;
+    font-family: cursive;
+}
+
+.mainbar {
+    width: 50vw;
+    height: 4vh;
+    padding: 0.5vh;
+    border: none;
+    border-radius: 1vh;
+    margin-top: 4vh;    
+    margin-left: 4vh;
+    float: left;
+    font-size: 1vw;
+}
+
+.mainbutton {
+    background-color: rgb(255, 255, 255);
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: cursive;
+    font-size: 16px;
+    float: left;
+    margin-left: 2vw;
+    margin-top: 3.5vh;
+    border-radius: 1vh;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.mainbutton:hover {
+    background-color: #111111;
+    color: white;
 }
