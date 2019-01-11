@@ -260,7 +260,7 @@ html, body, div, h5, h4, h3, h2, h1, p, a{
     padding: 0.5vh;
     border: none;
     border-radius: 1vh;
-    margin-top: 4vh;    
+    margin-top: 8vh;    
     margin-left: 4vh;
     float: left;
     font-size: 1vw;
@@ -278,7 +278,7 @@ html, body, div, h5, h4, h3, h2, h1, p, a{
     font-size: 16px;
     float: left;
     margin-left: 2vw;
-    margin-top: 3.5vh;
+    margin-top: 7.5vh;
     border-radius: 1vh;
     -webkit-transition-duration: 0.4s; /* Safari */
     transition-duration: 0.4s;
