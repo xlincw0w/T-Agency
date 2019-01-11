@@ -163,7 +163,8 @@ html, body, div, h5, h4, h3, h2, h1, p, a{
     margin-top: 3vh;
     margin-left: 8vw;
     margin-bottom: 3vh;
-    border: black;
+    color: black;
+    border: aliceblue;
     border-style: groove;
     border-radius: 1vh;
     width: 55vw;
@@ -195,9 +196,11 @@ html, body, div, h5, h4, h3, h2, h1, p, a{
     width: 10vw;
     height: 14vh;
     float: left;
-    margin-top: 0.2vh;
+    margin-top: 0.1vh;
     margin-left: 0.5vw;
     border-style: double;
+    border-color: aliceblue;
+    border-radius: 1vh;
 }
 
 .hotelname {
