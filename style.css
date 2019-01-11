@@ -1,4 +1,4 @@
-html, body, div, h3{
+html, body, div, h5, h4, h3, h2, h1, p, a{
     margin:0;
     padding:0;
     border:0;
@@ -118,8 +118,7 @@ html, body, div, h3{
     width: 17vw;
     padding: 0;
     border: none;
-    margin-top: 4vh;
-    margin-right: 5vw;
+    margin-top: 4vh;    
     margin-left: 4vh;
     float: left;
     font-size: 1vw;
@@ -159,19 +158,31 @@ html, body, div, h3{
 .hotels {
     float: left;
     display: flex;
+    margin: 0 auto;
     margin-top: 5vh;
-    margin-left: 7vw;
-    margin-bottom: 5vh;
+    margin-left: 8vw;
     width: 55vw;
-    height: 20vh;
+    height: 15vh;
+    background-color: aliceblue;
   }
 
 .desc {
     flex-basis: 75%;
-    background-color: aqua;
   }
 
 .price {
     flex-basis: 25%;
-    background-color: bisque;
+    float: right;
+    margin-right: 0vw;
+    margin-top: 3vh;
+    margin-bottom: 5vh;
   }
+
+.imghotels {
+    width: 10vw;
+    height: 14vh;
+    float: left;
+    margin-top: 0.2vh;
+    margin-left: 0.5vw;
+    border-style: double;
+}
