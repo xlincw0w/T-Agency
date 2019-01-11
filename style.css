@@ -187,9 +187,16 @@ html, body, div, h5, h4, h3, h2, h1, p, a{
 .price {
     flex-basis: 25%;
     float: right;
-    margin-right: 0vw;
-    margin-top: 3vh;
+    margin-right: 2vw;
+    margin-left: 3vh;
+    margin-top: 4vh;
     margin-bottom: 5vh;
+    border: black;
+    border-style: double;
+    border-radius: 3vh;
+    border-color: seashell;
+    background: rgb(129,129,129);
+    color: aliceblue;
   }
 
 .imghotels {
@@ -212,7 +219,9 @@ html, body, div, h5, h4, h3, h2, h1, p, a{
 .hoteldesc {
     font-size: 1.5vh;
     color: black;
-    font-family: monospace;
+    font-family: cursive;
+    margin-top: 0.5vh;
+    
 }
 
 .hotels:hover {
@@ -220,9 +229,10 @@ html, body, div, h5, h4, h3, h2, h1, p, a{
 }
 
 .pricetitle {
-    font-size: 3vh;
+    margin-top: 0.5vh;
+    font-size: 2vh;
 }
 
 .realprice {
-
+    font-size: 1.7vh;
 }
