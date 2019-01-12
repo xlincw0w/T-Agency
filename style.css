@@ -297,3 +297,26 @@ body {
     color: aliceblue;
 }
 
+@media screen and (max-width: 1600px) {
+    .hotelname {
+        font-size: 2.7vh;
+        color: black;
+    }          
+    .hoteldesc {
+        font-size: 2vh;
+        color: black;
+        margin-top: 0.5vh;
+    }
+    .pricetitle {
+        margin-top: 0vh;
+        font-size: 2.3vh;   
+    }       
+    .realprice {    
+        font-size: 2.1vh;   
+    }   
+    .mainslogan {    
+        margin-top: 5vh;  
+        font-size: 5vh;   
+        color: aliceblue;  
+    }
+}
