@@ -259,7 +259,7 @@ body {
 
 .mainslogan {
     margin-top: 5vh;
-    font-size: 3.5vh;
+    font-size: 4vh;
     font-family: cursive;
     color: aliceblue;
 }
@@ -298,4 +298,8 @@ body {
 .mainbutton:hover {
     background-color: #111111;
     color: white;
+}
+
+.destination {
+    color: aliceblue;
 }
