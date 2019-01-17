@@ -25,8 +25,6 @@ body {
     justify-content: center;
 }
 
-
-
 .main {
     width: 100vw;
     min-height: 64vh;
@@ -36,7 +34,6 @@ body {
     flex-direction: row;    
     justify-content: center;
 }
-
 
 .footer {
     width: 100vw;
@@ -119,6 +116,7 @@ body {
     color: white;
     text-decoration: underline;
 }
+
 .leftform {
     font-size: 4vh;
 }
@@ -258,7 +256,6 @@ body {
     font-size: 1.5vh;
     color: black;
     margin-top: 0.5vh;
-    
 }
 
 .hotels:hover {
@@ -280,7 +277,6 @@ body {
     color: aliceblue;
 }
 
-
 .mainbutton:hover {
     background-color: #111111;
     color: white;
@@ -290,12 +286,12 @@ a {
     text-decoration: none;
 }
 
-
 @media only screen and (max-width: 480px) {
     .indexbar {
         width: 300px;
         height: 40px;
     }
+
     .searchbar {
         width: 200px;
         height: 40px;
@@ -312,7 +308,6 @@ a {
         width: 85vw;
         min-height: 15vh;
         height: auto;
-        
       }
 
     .imghotels {
