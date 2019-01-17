@@ -21,7 +21,11 @@ body {
 .header {
     width: 100vw;
     height: 18vh;
+    display: flex;
+    justify-content: center;
 }
+
+
 
 .main {
     width: 100vw;
@@ -62,6 +66,8 @@ body {
     text-decoration: none;
     color: azure;
     font-weight: 700;
+    margin-top: 4vh;
+    padding: 0;
 }
 
 .logo:hover {
@@ -330,13 +336,5 @@ a {
 }
 
 @media only screen and (max-width: 1400px) {
-    .header {
-        display: flex;
-        justify-content: center;
-    }
-    
-    .logo {
-        margin-top: 4vh;
-        padding: 0;
-    }
+
 }
