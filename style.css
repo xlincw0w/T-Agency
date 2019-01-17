@@ -143,6 +143,7 @@ body {
     color: rgb(0, 0, 0);
     width: 170px;
     height: 60px;
+    font-size: 1.7vh;
     text-align: center;
     text-decoration: none;
     display: inline-block;
