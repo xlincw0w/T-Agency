@@ -6,7 +6,7 @@ html, body, div, h5, h4, h3, h2, h1, p, a{
 }
 
 body {
-    background-image: url(images/backgroundimage1.jpg);
+    background-image: url(images/backgroundimage2.jpg);
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: center;
@@ -19,49 +19,45 @@ body {
 }
 
 .header {
-    width: auto;
+    width: 100vw;
     height: 18vh;
-    background-color: rgb(0, 0, 0);
-
 }
 
 .main {
-    width: auto;
+    width: 100vw;
     min-height: 64vh;
     height: auto;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;    
-    justify-content: space-around;
+    justify-content: center;
 }
 
 
 .footer {
+    width: 100vw;
+    min-height: 18vh;
+    height: auto;
+    background-color: rgb(0, 0, 0, 0.5);
     display: flex;
-    width: auto;
-    height: 18vh;
-    background-color: rgb(0, 0, 0);
+    flex-wrap: wrap;
 }
 
 .left {
-    margin-left: 0;
     flex-basis: 25%;
-}
-.sep {
-    flex-basis: 0.3%;
-    background-color: black;
+    justify-content: center;
 }
 
 .right {
-    flex-basis: 74.7%;
-    margin-right: 0;
+    flex-basis: 75%;
+    justify-content: center;
 }
 
 .logo {
     transition-duration: 0.3s;
     float: left;
-    margin-left: 10vw;
-    margin-top: 5vh;
+    padding-left: 10vw;
+    padding-top: 5vh;
     font-size: 5vh;
     text-decoration: none;
     color: azure;
@@ -69,49 +65,46 @@ body {
 }
 
 .logo:hover {
-    color: white;
     font-size: 5.2vh;
 }
 
 
 .contactinformation {
     flex-basis: 33%;
-    margin: 0;
     color: azure;
-}
-
-.info {
-    margin: 0 auto;
-    margin-top: 1.2vh;
-    font-size: 1.7vh;
-}
-
-.vala {
-    margin: 0 auto;
-    margin-top: 2vh;
+    justify-content: center;
 }
 
 .copyrights {
     flex-basis: 33%;
-    margin: 0;
     color: azure;
-    float: left;
-    margin-top: 12vh;
+    padding-top: 13vh;
 }
 
 .follow {
-    flex-basis: 34%;
-    margin: 0;
-    margin-right: 0;
+    flex-basis: 33%;
     color: azure;
-    float: right;
+    justify-content: center;
+}
+
+.info {
+    padding-top: 1.2vh;
+    font-size: 1.7vh;
+}
+
+.h4contactinformation {
+    padding-top: 2vh;
+}
+
+
+.followus {
+    margin-top: 2vh;
+    color: azure;
+    text-decoration: none;
 }
 
 .followlinks {
-    transition-delay: 0.4s;
-    display: flex;
-    margin-top: 0.5vh;
-    margin-left: 17vw;
+    display: block;
     color: azure;
     text-decoration: none;
 }
@@ -120,90 +113,114 @@ body {
     color: white;
     text-decoration: underline;
 }
-
-.valdke {
-    display: flex;
-    margin-top: 2vh;
-    margin-left: 17vw;
-    color: azure;
-    text-decoration: none;
-}
-
 .leftform {
     font-size: 4vh;
 }
 
-.bar{
-    width: 17vw;
-    height: 2.5vh;
+.indexbar {
+    width: 450px;
+    height: 40px;
     padding: 0.5vh;
     border: none;
-    margin-top: 4vh;    
-    margin-left: 4vh;
-    float: left;
+    border-radius: 1vh;
+    margin-top: 8vh;    
+    font-size: 1vw;     
+}
+
+.indexbar::placeholder {
+    font-size: 16px;
+}
+
+.indexbutton {
+    background-color: rgb(255, 255, 255);
+    border: none;
+    color: rgb(0, 0, 0);
+    width: 170px;
+    height: 60px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 2vw;
+    border-radius: 1vh;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.indexbutton:hover {
+    background-color: #111111;
+    color: white;
+}
+
+.destination {
+    font-size: 4vh;
+    color: aliceblue;
+}
+
+.searchbar {
+    width: 350px;
+    height: 40px;
+    padding: 0.5vh;
+    border: none;
+    border-radius: 1vh;
+    margin-top: 8vh;    
     font-size: 1vw;
-  }
+}
+
+.searchbar::placeholder {
+    font-size: 16px;
+}
   
-.button {
+.searchbutton {
     background-color: rgb(255, 255, 255);
     border: none;
     color: rgb(0, 0, 0);
     padding: 16px 32px;
     text-align: center;
+    border-radius: 1vh;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
-    float: left;
-    margin-left: 2vw;
+    font-size: 16px;  
     margin-top: 4vh;
     -webkit-transition-duration: 0.4s; /* Safari */
     transition-duration: 0.4s;
     cursor: pointer;
-  }
-  
-.button:hover {
+}
+
+.searchbutton:hover {
     background-color: #111111;
     color: white;
-  }
-
-.left p {
-    font-size: 4vh;
-    float: left;
-    margin-left: 2vw;
-    margin-top: 7vh;
-  }
+}
 
 .hotels {
-    float: left;
-    display: flex;
     margin: 0 auto;
-    margin-top: 3vh;
-    margin-left: 8vw;
-    margin-bottom: 3vh;
+    justify-content: center;
+    display: flex;
     color: black;
     border: aliceblue;
     border-style: groove;
     border-radius: 1vh;
     width: 55vw;
     height: 15vh;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
     transition-duration: 0.4s;
-    background-color: aliceblue;
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgb(255, 255, 255));
   }
 
 .desc {
     flex-basis: 25%;
+    justify-content: center;
   }
 
 .hotelinformation {
+    justify-content: center;
     flex-basis: 50%;
-    font-size: 1.6vh;
-    margin-top: 1.2vh;
-    
 }
 
 .price {
+    justify-content: center;
     flex-basis: 25%;
-    float: right;
     margin-right: 2vw;
     margin-left: 3vh;
     margin-top: 4vh;
@@ -220,8 +237,6 @@ body {
     width: 10vw;
     height: 14vh;
     float: left;
-    margin-top: 0.1vh;
-    margin-left: 0.5vw;
     border-style: double;
     border-color: aliceblue;
     border-radius: 1vh;
@@ -258,69 +273,70 @@ body {
     color: aliceblue;
 }
 
-.mainbar {
-    width: 50vw;
-    height: 4vh;
-    padding: 0.5vh;
-    border: none;
-    border-radius: 1vh;
-    margin-top: 8vh;    
-    margin-left: 4vh;
-    float: left;
-    font-size: 1vw;
-}
-
-.mainbutton {
-    background-color: rgb(255, 255, 255);
-    border: none;
-    color: rgb(0, 0, 0);
-    padding: 16px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    float: left;
-    margin-left: 2vw;
-    margin-top: 7.5vh;
-    border-radius: 1vh;
-    -webkit-transition-duration: 0.4s; /* Safari */
-    transition-duration: 0.4s;
-    cursor: pointer;
-}
 
 .mainbutton:hover {
     background-color: #111111;
     color: white;
 }
 
-.destination {
-    color: aliceblue;
+a {
+    text-decoration: none;
 }
 
-@media screen and (max-width: 1600px) {
-    html, body, div, h5, h4, h3, h2, h1, p, a{
-        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    }
 
-    .hotelname {
-        font-size: 2.7vh;
-        color: black;
-    }          
-    .hoteldesc {
-        font-size: 2vh;
-        color: black;
-        margin-top: 0.5vh;
+@media only screen and (max-width: 480px) {
+    .indexbar {
+        width: 300px;
+        height: 40px;
     }
-    .pricetitle {
-        margin-top: 0vh;
-        font-size: 2.3vh;   
-    }       
-    .realprice {    
-        font-size: 2.1vh;   
-    }   
-    .mainslogan {    
-        margin-top: 5vh;  
-        font-size: 5vh;   
-        color: aliceblue;  
+    .searchbar {
+        width: 200px;
+        height: 40px;
+        padding: 0.5vh;
+        border: none;
+        border-radius: 1vh;
+        margin-top: 8vh;    
+        font-size: 1vw;
+    }
+} 
+
+@media only screen and (max-width: 768px) {
+    .hotels {
+        width: 85vw;
+        min-height: 15vh;
+        height: auto;
+        
+      }
+
+    .imghotels {
+        width: 20vw;
+        height: 20vh;
+    }
+} 
+
+@media only screen and (max-width: 1200px) {
+    .contactinformation {
+        flex-basis: 100%;
+    }
+    
+    .copyrights {
+        flex-basis: 100%;
+        display: none;
+    }
+    
+    .follow {
+        flex-basis: 100%;
+    }
+}
+
+@media only screen and (max-width: 1400px) {
+    .header {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .logo {
+        margin-top: 4vh;
+        padding: 0;
     }
 }
