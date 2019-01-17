@@ -2,7 +2,7 @@ html, body, div, h5, h4, h3, h2, h1, p, a{
     margin:0;
     padding:0;
     border:0;
-    font-family: cursive;
+    font-family: cursive, Times;
 }
 
 body {
@@ -163,7 +163,7 @@ body {
     padding: 0.5vh;
     border: none;
     border-radius: 1vh;
-    margin-top: 8vh;    
+    margin-top: 2vh;    
     font-size: 1vw;
 }
 
