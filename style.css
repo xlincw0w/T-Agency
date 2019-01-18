@@ -197,6 +197,7 @@ body {
     color: white;
 }
 
+
 .hotels {
     margin: 0 auto;
     justify-content: center;
@@ -211,12 +212,16 @@ body {
     margin-bottom: 2vh;
     transition-duration: 0.4s;
     background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgb(255, 255, 255));
-  }
+}
+
+.tableContainer {
+    margin: 0 auto;
+}
 
 .desc {
     flex-basis: 25%;
     justify-content: center;
-  }
+}
 
 .hotelinformation {
     justify-content: center;
@@ -236,7 +241,7 @@ body {
     border-color: seashell;
     background: rgb(129,129,129);
     color: aliceblue;
-  }
+}
 
 .imghotels {
     width: 10vw;
