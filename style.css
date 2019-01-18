@@ -11,9 +11,10 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    overflow-x: hidden;
 }
 
-.A {
+.maindiv {
     flex-direction: row;
     text-align: center;
 }
@@ -31,7 +32,6 @@ body {
     height: auto;
     display: flex;
     flex-wrap: wrap;
-    flex-direction: row;    
     justify-content: center;
 }
 
@@ -199,7 +199,6 @@ body {
 
 .hotels {
     margin: 0 auto;
-    justify-content: center;
     display: flex;
     color: black;
     border: aliceblue;
