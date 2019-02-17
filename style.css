@@ -1,12 +1,17 @@
-html, body, div, h5, h4, h3, h2, h1, p, a{
+@font-face {
+    font-family: 'Pacifico';
+    src: url('Pacifico.ttf');
+}
+
+*{
     margin:0;
     padding:0;
     border:0;
-    font-family: cursive, Times;
+    font-family: cursive, 'Times New Roman', Times, serif;
 }
 
 body {
-    background-image: url(images/backgroundimage3.jpg);
+    background-image: url(images/backgroundimage2.jpg);
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: center;
@@ -37,8 +42,7 @@ body {
 
 .footer {
     width: 100vw;
-    min-height: 18vh;
-    height: auto;
+    height: 18vh;
     background-color: rgb(0, 0, 0, 0.5);
     display: flex;
     flex-wrap: wrap;
@@ -61,8 +65,9 @@ body {
     padding-top: 5vh;
     font-size: 5vh;
     text-decoration: none;
-    color: azure;
+    color: white;
     font-weight: 700;
+    font-family: 'Pacifico';
     margin-top: 4vh;
     padding: 0;
 }
@@ -71,22 +76,40 @@ body {
     font-size: 5.2vh;
 }
 
+.gerant {
+    display: block;
+    margin-top: 30vh;
+    color: white;
+    font-size: 2vh;
+    text-decoration: underline;
+    font-family: 'Pacifico';
+    transition-duration: 0.5s;
+
+}
+
+.gerant:hover {
+    border: 1vh;
+    border-style: dotted;
+    border-radius: 3vh;
+}
+
 
 .contactinformation {
     flex-basis: 33%;
-    color: azure;
+    color: white;
     justify-content: center;
 }
 
 .copyrights {
     flex-basis: 33%;
-    color: azure;
+    color: white;
     padding-top: 13vh;
+    font-family: 'Pacifico';
 }
 
 .follow {
-    flex-basis: 33%;
-    color: azure;
+    flex-basis: 33%;    
+    color: white;
     justify-content: center;
 }
 
@@ -97,18 +120,20 @@ body {
 
 .h4contactinformation {
     padding-top: 2vh;
+    font-family: 'Pacifico';
 }
 
 
 .followus {
     margin-top: 2vh;
-    color: azure;
+    color: white;
     text-decoration: none;
+    font-family: 'Pacifico';
 }
 
 .followlinks {
     display: block;
-    color: azure;
+    color: white;
     text-decoration: none;
 }
 
@@ -159,7 +184,8 @@ body {
 
 .destination {
     font-size: 4vh;
-    color: aliceblue;
+    color: white;
+    font-family: 'Pacifico';
 }
 
 .searchbar {
@@ -273,7 +299,7 @@ body {
 .mainslogan {
     margin-top: 5vh;
     font-size: 4vh;
-    color: aliceblue;
+    color: white;
 }
 
 .mainbutton:hover {
@@ -283,6 +309,7 @@ body {
 
 a {
     text-decoration: none;
+
 }
 
 @media only screen and (max-width: 480px) {
