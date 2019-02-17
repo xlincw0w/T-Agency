@@ -25,17 +25,17 @@ body {
 }
 
 .header {
+    display: flex;
     width: 100vw;
     height: 18vh;
-    display: flex;
     justify-content: center;
 }
 
 .main {
+    display: flex;
     width: 100vw;
     min-height: 64vh;
     height: auto;
-    display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
@@ -59,17 +59,19 @@ body {
 }
 
 .logo {
-    transition-duration: 0.3s;
-    float: left;
-    padding-left: 10vw;
-    padding-top: 5vh;
-    font-size: 5vh;
-    text-decoration: none;
-    color: white;
-    font-weight: 700;
-    font-family: 'Pacifico';
     margin-top: 4vh;
     padding: 0;
+    float: left;
+    font-size: 5vh;
+    font-weight: 700;
+    font-family: 'Pacifico';
+    color: white;
+    text-decoration: none;
+    transition-duration: 0.3s;
+    text-shadow: 2px 2px blue;
+}
+
+
 }
 
 .logo:hover {
@@ -81,18 +83,18 @@ body {
     margin-top: 30vh;
     color: white;
     font-size: 2vh;
-    text-decoration: underline;
     font-family: 'Pacifico';
+    text-decoration: underline;
     transition-duration: 0.5s;
 
 }
 
 .gerant:hover {
+    padding-bottom: 3vh;
     border: 1vh;
     border-style: dotted;
     font-size: 2.3vh;
     border-radius: 3vh;
-    padding-bottom: 3vh;
 }
 
 
@@ -104,9 +106,9 @@ body {
 
 .copyrights {
     flex-basis: 33%;
-    color: white;
     padding-top: 13vh;
     font-family: 'Pacifico';
+    color: white;
 }
 
 .follow {
