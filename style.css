@@ -307,9 +307,25 @@ body {
     color: white;
 }
 
+.inputbox {
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+    width: 70vw;
+    height: 70vh;
+    background: rgb(0, 0, 0, 0.5);
+}
+
+.owninp {
+    width: 15vw;
+    height: 3vh;
+    border-radius: 0.5vh;
+    width: 15vw;
+    height: 3vh;
+    box-shadow: 1px 1px 1px 1px;
+}
+
 a {
     text-decoration: none;
-
 }
 
 @media only screen and (max-width: 480px) {
