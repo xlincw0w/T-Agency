@@ -162,18 +162,19 @@ body {
 }
 
 .indexbutton {
+    display: inline-block;
     background-color: rgba(255, 255, 255);
-    color: rgb(0, 0, 0);
-    border: none;
     width: 170px;
     height: 60px;
-    font-size: 1.7vh;
-    text-align: center;
+    font-size: 1.8vh;
+    font-family: fantasy;
     text-decoration: none;
-    display: inline-block;
+    text-align: center;
+    border: none;
+    border-radius: 1vh;
     margin-top: 10px;
     margin-left: 2vw;
-    border-radius: 1vh;
+    color: rgb(0, 0, 0);
     transition-duration: 0.4s;
     cursor: pointer;
 }
@@ -195,8 +196,7 @@ body {
     padding: 0.5vh;
     border: none;
     border-radius: 1vh;
-    margin-top: 2vh;    
-    font-size: 1vw;
+    margin-top: 2vh;
 }
 
 .searchbar::placeholder {
@@ -204,15 +204,16 @@ body {
 }
   
 .searchbutton {
+    display: inline-block;
     background-color: rgb(255, 255, 255);
     border: none;
-    color: rgb(0, 0, 0);
     padding: 16px 32px;
-    text-align: center;
     border-radius: 1vh;
+    font-size: 18px;  
+    font-family: fantasy;
+    color: rgb(0, 0, 0);
+    text-align: center;
     text-decoration: none;
-    display: inline-block;
-    font-size: 16px;  
     margin-top: 4vh;
     -webkit-transition-duration: 0.4s; /* Safari */
     transition-duration: 0.4s;
@@ -316,13 +317,21 @@ body {
     background: rgb(0, 0, 0, 0.5);
 }
 
+.line {
+    margin-top: 2vh;
+}
+
 .owninp {
     width: 15vw;
     height: 3vh;
     border-radius: 0.5vh;
-    width: 15vw;
-    height: 3vh;
     box-shadow: 1px 1px 1px 1px;
+}
+
+.libelle {
+    width: 6vw;
+    display: inline-block;  
+    color: white;
 }
 
 a {
