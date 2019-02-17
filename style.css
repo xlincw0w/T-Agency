@@ -90,7 +90,9 @@ body {
 .gerant:hover {
     border: 1vh;
     border-style: dotted;
+    font-size: 2.3vh;
     border-radius: 3vh;
+    padding-bottom: 3vh;
 }
 
 
