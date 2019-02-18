@@ -3,7 +3,7 @@
     src: url('Pacifico.ttf');
 }
 
-*{
+* {
     margin:0;
     padding:0;
     border:0;
@@ -71,8 +71,9 @@ body {
 }
 
 .logo:hover {
-    font-size: 5.2vh;
-    text-shadow: 2px 2px blue;
+    font-size: 6.2vh;
+    /* text-shadow: 2px 2px orange; */
+    color: orange;
 }
 
 .gerant {
@@ -83,17 +84,13 @@ body {
     font-family: 'Pacifico';
     text-decoration: underline;
     transition-duration: 0.5s;
-
 }
 
 .gerant:hover {
-    padding-bottom: 3vh;
-    border: 1vh;
-    border-style: dotted;
     font-size: 2.3vh;
-    border-radius: 3vh;
+    /* text-shadow: 2px 2px orange; */
+    color: orange;
 }
-
 
 .contactinformation {
     flex-basis: 33%;
@@ -151,7 +148,6 @@ body {
     width: 450px;
     height: 40px;
     padding: 0.5vh;
-    border: none;
     border-radius: 1vh;
     margin-top: 8vh;    
     font-size: 1vw;     
@@ -180,8 +176,8 @@ body {
 }
 
 .indexbutton:hover {
-    background-color: black;
-    color: white;
+    background-color: orange;
+    color: black;
 }
 
 .destination {
@@ -221,8 +217,8 @@ body {
 }
 
 .searchbutton:hover {
-    background-color: #111111;
-    color: white;
+    background-color: orange;
+    color: black;
 }
 
 .hotels {
@@ -329,7 +325,7 @@ body {
 }
 
 .libelle {
-    width: 6vw;
+    width: 10vw;
     display: inline-block;  
     color: white;
 }
@@ -380,5 +376,15 @@ a {
     
     .follow {
         flex-basis: 100%;
+    }
+}
+
+@media only screen and (max-width: 1400px) {
+    .gerant {
+        font-size: 2.3vh;
+    }
+
+    .gerant:hover {
+        font-size: 2.5vh;
     }
 }
