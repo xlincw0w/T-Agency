@@ -12,7 +12,7 @@
     <div class="maindiv">
 
         <header class="header" >
-            <a class="logo" href="index.html"> > Travel Agency < </a>
+            <a class="logo" href="index.php">Travel Agency</a>
             <!-- <a class="connexion" href="">Connexion</a> -->
         </header>
 

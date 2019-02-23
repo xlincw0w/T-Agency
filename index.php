@@ -1,3 +1,6 @@
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,7 +8,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="style.css">
-    <!-- <script src="./js/background.js"></script> -->
     <title>Travel Agency</title>
 </head>
 <body>
@@ -13,15 +15,19 @@
     <div class="maindiv">
 
         <header class="header">
-            <a class="logo" href="index.html"> > Travel Agency < </a>
+            <a class="logo" href="index.php">Travel Agency</a>
         </header>
 
         <div class="main">
             <div>
+            <form action="search.php">
                 <h3 class="mainslogan">Trouvez votre hotel idéal, et comparez les prix.</h3>
                 <input class="indexbar "type="text" placeholder="Tapez votre destination" id="location">
-                <a href="search.html" id="search"><button class="indexbutton">Rechercher ></button></a> 
-                <a class="gerant" href="owner.html"> > Vous etes gérant d'un hotel ? Ajoutez le > </a>
+                <a href="search.php" id="search">
+                    <button class="indexbutton">Rechercher ></button>
+                </a>
+            </form>
+                <a class="gerant" href="owner.php"> > Vous etes gérant d'un hotel ? Ajoutez le > </a>
 
             </div>
         </div>
@@ -46,6 +52,6 @@
         </footer>
 
     </div>
-    
+
 </body>
 </html>

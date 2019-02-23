@@ -7,7 +7,7 @@
     margin:0;
     padding:0;
     border:0;
-    font-family: cursive, 'Times New Roman', Times, serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 body {
@@ -60,12 +60,12 @@ body {
 
 .logo {
     transition-duration: 0.3s;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     margin-top: 4vh;
     padding: 0;
     float: left;
     font-size: 5vh;
     font-weight: 700;
-    font-family: 'Pacifico';
     color: white;
     text-decoration: none;
 }
@@ -81,7 +81,6 @@ body {
     margin-top: 30vh;
     color: white;
     font-size: 2vh;
-    font-family: 'Pacifico';
     text-decoration: underline;
     transition-duration: 0.5s;
 }
@@ -163,7 +162,6 @@ body {
     width: 170px;
     height: 60px;
     font-size: 1.8vh;
-    font-family: fantasy;
     text-decoration: none;
     text-align: center;
     border: none;
@@ -328,6 +326,29 @@ body {
     width: 10vw;
     display: inline-block;  
     color: white;
+}
+
+.checkbox {
+    margin-top: 3vh;
+    font-size: 2vh;
+    color: white;
+}
+
+.checkboxinputs {
+    margin-top: 2vh;
+}
+
+.avatar {
+    color: white;
+}
+
+.inp {
+    margin-right: 3vh;
+}
+
+.linediv {
+   display: block;
+   margin-bottom: 2vh;
 }
 
 a {
