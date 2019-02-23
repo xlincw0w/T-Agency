@@ -7,7 +7,7 @@ CREATE TABLE Hotels (
     Adresse VARCHAR(25) NOT NULL,
     Pays VARCHAR(25) NOT NULL,
     n_chambre VARCHAR(10) NOT NULL,
-    Csimple VARCHAR(10) NOT NULL
-    Cdouble VARCHAR(10) NOT NULL
+    Csimple VARCHAR(10) NOT NULL,
+    Cdouble VARCHAR(10) NOT NULL,
     Ctriple VARCHAR(10) NOT NULL
 );
